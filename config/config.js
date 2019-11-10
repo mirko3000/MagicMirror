@@ -88,7 +88,7 @@ var config = {
 
 		 {
 			module: 'MMM-xiaomi',
-			position: 'bottom_left',
+			position: 'lower_third',
 			header: 'Temperature / Humidity',
 			config: {
 	            // See 'Configuration options' for more information.
@@ -165,7 +165,7 @@ var config = {
 		},
 	  {
 			module: 'MMM-max',
-			position: 'bottom_right',
+			position: 'lower_third',
 			header: 'Heizung / Temperatur',
 			config: {
 				maxIP: '192.168.0.252',
@@ -242,8 +242,8 @@ var config = {
 			}
 		},
 		{
-      		module: 'mySonos',
-      		position: 'lower_third', // you may choose any location
+      		module: 'MMM-Sonos',
+      		position: 'middle_center', // you may choose any location
       		header: 'Sonos',
       		config: {
      			showRoomName: true,
