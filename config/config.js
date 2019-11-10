@@ -175,7 +175,7 @@ var config = {
 		},
 	    {
 			module: 'MMM-FRITZBox-Callmonitor',
-			position: 'bottom_center',	// This can be any of the regions. Best results in left or right regions.
+			position: 'lower_third',	// This can be any of the regions. Best results in left or right regions.
 			header: "Anrufe", // This is optional
 			config: {
 				// See 'Configuration options' for more information.
@@ -243,7 +243,7 @@ var config = {
 		},
 		{
       		module: 'MMM-Sonos',
-      		position: 'lower_third', // you may choose any location
+      		position: 'middle_center', // you may choose any location
       		header: 'Sonos',
       		config: {
      			showRoomName: true,
