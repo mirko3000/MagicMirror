@@ -64,7 +64,7 @@ var config = {
 			}
 		},
 		{
-	        module: 'MMM-Wunderlist',
+	        module: 'MMM-Wunderlist-Enhanced',
 	        position: 'upper_third',  // This can be any of the regions. Best results in left or right regions.
 	        header: 'Einkaufsliste', // This is optional
 	        config: {
