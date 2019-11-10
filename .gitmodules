@@ -1,0 +1,15 @@
+[submodule "modules/MMM-xiaomi"]
+	path = modules/MMM-xiaomi
+	url = https://github.com/mirko3000/MMM-xiaomi.git
+[submodule "modules/MMM-max"]
+	path = modules/MMM-max
+	url = https://github.com/mirko3000/MMM-max.git
+[submodule "modules/MMM-FRITZ-Box-Callmonitor"]
+	path = modules/MMM-FRITZ-Box-Callmonitor
+	url = https://github.com/paviro/MMM-FRITZ-Box-Callmonitor.git
+[submodule "modules/MMM-Wunderlist-Enhanced"]
+	path = modules/MMM-Wunderlist-Enhanced
+	url = https://github.com/funsocietyirc/MMM-Wunderlist-Enhanced.git
+[submodule "modules/MMM-Sonos"]
+	path = modules/MMM-Sonos
+	url = https://github.com/CFenner/MMM-Sonos.git
