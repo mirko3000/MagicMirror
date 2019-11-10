@@ -88,7 +88,7 @@ var config = {
 
 		 {
 			module: 'MMM-xiaomi',
-			position: 'lower_third',
+			position: 'bottom_left',
 			header: 'Temperature / Humidity',
 			config: {
 	            // See 'Configuration options' for more information.
@@ -165,7 +165,7 @@ var config = {
 		},
 	  {
 			module: 'MMM-max',
-			position: 'lower_third',
+			position: 'bottom_right',
 			header: 'Heizung / Temperatur',
 			config: {
 				maxIP: '192.168.0.252',
@@ -175,7 +175,7 @@ var config = {
 		},
 	    {
 			module: 'MMM-FRITZBox-Callmonitor',
-			position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
+			position: 'bottom_center',	// This can be any of the regions. Best results in left or right regions.
 			header: "Anrufe", // This is optional
 			config: {
 				// See 'Configuration options' for more information.
@@ -243,7 +243,7 @@ var config = {
 		},
 		{
       		module: 'MMM-Sonos',
-      		position: 'middle_center', // you may choose any location
+      		position: 'lower_third', // you may choose any location
       		header: 'Sonos',
       		config: {
      			showRoomName: true,
