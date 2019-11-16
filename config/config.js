@@ -64,8 +64,8 @@ var config = {
 			}
 		},
 		{
-	        module: 'MMM-Wunderlist-Enhanced',
-	        position: 'upper_third',  // This can be any of the regions. Best results in left or right regions.
+	        module: 'MMM-Wunderlist',
+	        position: 'middle_center',  // This can be any of the regions. Best results in left or right regions.
 	        header: 'Einkaufsliste', // This is optional
 	        config: {
 	            // See 'Configuration options' for more information.
@@ -78,14 +78,6 @@ var config = {
 	            fadePoint: 0.8
 	        }
 	    },
-	  //  {
-	//		module: 'MMM-cul',
-//			position: 'bottom_right',
-//			header: 'Temperatur',
-//			config: {
-//			}
-//		},
-
 		 {
 			module: 'MMM-xiaomi',
 			position: 'bottom_left',
@@ -175,7 +167,7 @@ var config = {
 		},
 	    {
 			module: 'MMM-FRITZ-Box-Callmonitor',
-			position: 'lower_third',	// This can be any of the regions. Best results in left or right regions.
+			position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
 			header: "Anrufe", // This is optional
 			config: {
 				// See 'Configuration options' for more information.
@@ -190,37 +182,6 @@ var config = {
 	      fadePoint: 0.25
 			}
 		},
-	    //{
-		// 	module: 'trainconnections-google',
-		// 	position: 'bottom_left',
-		// 	header: 'Nächste Verbindungen',
-		// 	config: {
-		// 		//from: 'Markuskirche+Stuttgart', // Departure stations
-		// 		fromId: 'ChIJe5loUlLbmUcR4ABBT7Q0GJ4',
-		// 		fromName: 'Markuskirche',
-		// 		toId: 'ChIJSXWWsLXEmUcRbSpM5Ct0rS0', // Final Station
-		// 		toName: 'Olgaeck',
-		// 		maximumEntries: '3', // Max departures displayed
-		// 	}
-		// },
-		// {
-		// 	module: 'trainconnections-vvs',
-		// 	position: 'lower_third',
-		// 	header: 'Nächste Verbindungen',
-		// 	config: {
-		// 		//from: 'Markuskirche+Stuttgart', // Departure stations
-		// 		//fromId: '5002411',
-		// 		//fromName: 'Markuskirche',
-		// 		//toId: '5006119', // Final Station
-		// 		//toName: 'Olgaeck',
-		// 		fromId: '5006166',
-		// 		fromName: 'Peregrinastr',
-		// 		toId: '5002061',
-		// 		toName: 'Wilhelmsbau',
-		// 		maximumEntries: '3', // Max departures displayed
-		// 		onlyNonstop: false
-		// 	}
-		// },
 		{
 			module: 'currentweather',
 			position: 'top_right',
@@ -243,7 +204,7 @@ var config = {
 		},
 		{
       		module: 'MMM-Sonos',
-      		position: 'middle_center', // you may choose any location
+      		position: 'lower_third', // you may choose any location
       		header: 'Sonos',
       		config: {
      			showRoomName: true,

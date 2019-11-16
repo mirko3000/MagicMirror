@@ -13,3 +13,6 @@
 [submodule "modules/MMM-Sonos"]
 	path = modules/MMM-Sonos
 	url = https://github.com/CFenner/MMM-Sonos.git
+[submodule "modules/MMM-Wunderlist"]
+	path = modules/MMM-Wunderlist
+	url = https://github.com/mirko3000/MMM-Wunderlist.git
