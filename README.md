@@ -40,6 +40,8 @@ MagicMirror² focuses on a modular plugin system and uses [Electron](http://elec
 #### Custom Installation Mirko
 
 git submodule update --init --recursive
+npm install (on main folder and modules and submodule)
+
 
 #### Automatic Installation (Raspberry Pi only!)
 

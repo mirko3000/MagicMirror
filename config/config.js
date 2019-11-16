@@ -174,7 +174,7 @@ var config = {
 			}
 		},
 	    {
-			module: 'MMM-FRITZBox-Callmonitor',
+			module: 'MMM-FRITZ-Box-Callmonitor',
 			position: 'lower_third',	// This can be any of the regions. Best results in left or right regions.
 			header: "Anrufe", // This is optional
 			config: {
