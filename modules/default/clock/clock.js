@@ -61,7 +61,7 @@ Module.register("clock",{
 			if (self.config.displaySeconds) {
 				self.second = (self.second + 1) % 60;
 				if (self.second !== 0) {
-					self.sendNotification("CLOCK_SECOND", self.second);
+					// self.sendNotification("CLOCK_SECOND", self.second);
 					setTimeout(notificationTimer, delayCalculator(0));
 					return;
 				}
