@@ -162,7 +162,7 @@ var config = {
 			config: {
 				maxIP: '192.168.0.252',
 				twoColLayout: false,
-				updateInterval: 5
+				updateInterval: 2
 			}
 		},
 	    {
