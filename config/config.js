@@ -155,16 +155,25 @@ var config = {
 	            ],
 	        }
 		},
-	  {
-			module: 'MMM-max',
-			position: 'bottom_right',
-			header: 'Heizung / Temperatur',
-			config: {
-				maxIP: '192.168.0.252',
-				twoColLayout: false,
-				updateInterval: 2
-			}
-		},
+		{
+        module: 'MMM-Tado',
+        position: 'bottom_right',
+        config: {
+            username: 'mirkoogle@gmail.com',
+            password: 'tado19pass',
+            updateInterval: 300000
+        }
+    },
+	  // {
+		// 	module: 'MMM-max',
+		// 	position: 'bottom_right',
+		// 	header: 'Heizung / Temperatur',
+		// 	config: {
+		// 		maxIP: '192.168.0.252',
+		// 		twoColLayout: false,
+		// 		updateInterval: 2
+		// 	}
+		// },
 	    {
 			module: 'MMM-FRITZ-Box-Callmonitor',
 			position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
