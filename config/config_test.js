@@ -63,21 +63,21 @@ var config = {
 				]
 			}
 		},
-		{
-	        module: 'MMM-Wunderlist',
-	        position: 'middle_center',  // This can be any of the regions. Best results in left or right regions.
-	        header: 'Einkaufsliste', // This is optional
-	        config: {
-	            // See 'Configuration options' for more information.
-	            accessToken: '765170aa44e0b4ea434602981f944f290cd3d06b6d238a566cb6ac886ae0',
-	            clientID: '09469070e011cb037ead',
-	            lists: ['Einkaufen'],
-	            maximumEntries: 26,
-	            interval: 300,
-	            fade: true,
-	            fadePoint: 0.8
-	        }
-	    },
+		// {
+	  //       module: 'MMM-Wunderlist',
+	  //       position: 'middle_center',  // This can be any of the regions. Best results in left or right regions.
+	  //       header: 'Einkaufsliste', // This is optional
+	  //       config: {
+	  //           // See 'Configuration options' for more information.
+	  //           accessToken: '765170aa44e0b4ea434602981f944f290cd3d06b6d238a566cb6ac886ae0',
+	  //           clientID: '09469070e011cb037ead',
+	  //           lists: ['Einkaufen'],
+	  //           maximumEntries: 26,
+	  //           interval: 300,
+	  //           fade: true,
+	  //           fadePoint: 0.8
+	  //       }
+	  //   },
 		 {
 			module: 'MMM-smarthome',
 			position: 'bottom_left',
@@ -182,23 +182,23 @@ var config = {
 		// 		updateInterval: 2
 		// 	}
 		// },
-	    {
-			module: 'MMM-FRITZ-Box-Callmonitor',
-			position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
-			header: "Anrufe", // This is optional
-			config: {
-				// See 'Configuration options' for more information.
-				fritzIP: '192.168.0.1',
-				password: 'motzi13#',
-				showContactsStatus: false,
-				numberFontSize: 40,
-				minimumCallLength: 30,
-				maximumCallDistance: 1440,
-				maximumCalls: 8,
-				fade: true,
-	      fadePoint: 0.25
-			}
-		},
+	  //   {
+		// 	module: 'MMM-FRITZ-Box-Callmonitor',
+		// 	position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
+		// 	header: "Anrufe", // This is optional
+		// 	config: {
+		// 		// See 'Configuration options' for more information.
+		// 		fritzIP: '192.168.0.1',
+		// 		password: 'motzi13#',
+		// 		showContactsStatus: false,
+		// 		numberFontSize: 40,
+		// 		minimumCallLength: 30,
+		// 		maximumCallDistance: 1440,
+		// 		maximumCalls: 8,
+		// 		fade: true,
+	  //     fadePoint: 0.25
+		// 	}
+		// },
 		{
 			module: 'currentweather',
 			position: 'top_right',
@@ -219,40 +219,40 @@ var config = {
                 appid: 'bdf4274306fec284ae89ae4bf213cbc3'
 			}
 		},
-		{
-      		module: 'MMM-Sonos',
-      		position: 'lower_third', // you may choose any location
-      		header: 'Sonos',
-      		config: {
-     			showRoomName: true,
-     			showStoppedRoom: false,
-     			showAlbumArt: true
-     		}
-		},
-		{
-			module: 'newsfeed',
-			position: 'bottom_bar',
-			config: {
-				feeds: [
-					{
-						title: "Spiegel Online",
-						url: "http://www.spiegel.de/schlagzeilen/tops/index.rss"
-					},
-					{
-						title: "Süddeutsche",
-						url: "http://rss.sueddeutsche.de/rss/Eilmeldungen"
-					},
-					{
-						title: "Stuttgarter Zeitung",
-						url: "http://www.stuttgarter-zeitung.de/stuttgart.rss.feed"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				ignoreOldItems: true,
-				ignoreOlderThan: 43200000
-			}
-		}
+		// {
+    //   		module: 'MMM-Sonos',
+    //   		position: 'lower_third', // you may choose any location
+    //   		header: 'Sonos',
+    //   		config: {
+    //  			showRoomName: true,
+    //  			showStoppedRoom: false,
+    //  			showAlbumArt: true
+    //  		}
+		// },
+		// {
+		// 	module: 'newsfeed',
+		// 	position: 'bottom_bar',
+		// 	config: {
+		// 		feeds: [
+		// 			{
+		// 				title: "Spiegel Online",
+		// 				url: "http://www.spiegel.de/schlagzeilen/tops/index.rss"
+		// 			},
+		// 			{
+		// 				title: "Süddeutsche",
+		// 				url: "http://rss.sueddeutsche.de/rss/Eilmeldungen"
+		// 			},
+		// 			{
+		// 				title: "Stuttgarter Zeitung",
+		// 				url: "http://www.stuttgarter-zeitung.de/stuttgart.rss.feed"
+		// 			}
+		// 		],
+		// 		showSourceTitle: true,
+		// 		showPublishDate: true,
+		// 		ignoreOldItems: true,
+		// 		ignoreOlderThan: 43200000
+		// 	}
+		// }
 	]
 
 };

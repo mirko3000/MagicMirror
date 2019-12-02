@@ -16,3 +16,6 @@
 [submodule "modules/MMM-Tado"]
 	path = modules/MMM-Tado
 	url = https://github.com/mirko3000/MMM-Tado.git
+[submodule "modules/MMM-smarthome"]
+	path = modules/MMM-smarthome
+	url = https://github.com/mirko3000/MMM-smarthome.git
