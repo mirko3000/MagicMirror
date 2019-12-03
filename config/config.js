@@ -56,10 +56,10 @@ var config = {
 						maximumEntries: 3
 					},
 					{
-            			url: 'webcal://ifeiertage.de/bw-.ics',
-            			symbol: 'star',
-            			maximumEntries: 5,
-        			}
+        			url: 'http://i.cal.to/ical/80/baden-wuerttemberg/ferien/a6dff02e.3ffcd70f-aa5bccba.ics',
+        			symbol: 'star',
+        			maximumEntries: 5,
+        	}
 				]
 			}
 		},
