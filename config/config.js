@@ -88,6 +88,7 @@ var config = {
 	            gatewayToken: 'cfbdb315c0824ccc971917e36922febe',
 	            outsideSensorId: '158d0001ad3771',
 	            animationSpeed: 10,
+							updateInterval: 2,
 	            graphicLayout: false,
 	            showHeating: true,
 	            showWindow: true,
