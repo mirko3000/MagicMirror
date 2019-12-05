@@ -106,7 +106,8 @@ var config = {
 		            	name: 'Kinderzimmer',
 		            	//name: 'Childrens room',
 		            	sortOrder: 40,
-		            	devices : ['158d000171840d', '158d00016ccdae']
+		            	devices : ['158d000171840d', '158d00016ccdae'],
+									zoneId: 7
 	            	},
 	            	{
 		            	name: 'Handarbeit',
