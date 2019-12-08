@@ -29,20 +29,20 @@ var config = {
 			config: {
 				//maximumNumberOfDays: '60',
 				calendars: [
-					{
-						symbol: 'calendar-o',
-						url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/default?export',
-						user: 'mirko',
-						pass: 'm1rk0',
-						maximumEntries: 15
-					},
-					{
-						symbol: 'trash-o',
-						url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/muell?export',
-						user: 'mirko',
-						pass: 'm1rk0',
-						maximumEntries: 3
-					},
+					// {
+					// 	symbol: 'calendar-o',
+					// 	url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/default?export',
+					// 	user: 'mirko',
+					// 	pass: 'm1rk0',
+					// 	maximumEntries: 15
+					// },
+					// {
+					// 	symbol: 'trash-o',
+					// 	url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/muell?export',
+					// 	user: 'mirko',
+					// 	pass: 'm1rk0',
+					// 	maximumEntries: 3
+					// },
 					// {
 					// 	symbol: 'trash-o',
 					// 	url: 'https://service3.stuttgart.de/lhs-services/aws/api/ical?street=Im%20Betzengaiern&streetnr=4',
