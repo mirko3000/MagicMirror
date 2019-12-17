@@ -29,6 +29,13 @@ var config = {
 			config: {
 				//maximumNumberOfDays: '60',
 				calendars: [
+					{
+						symbol: 'calendar-o',
+						url: 'http://cotta.synology.me:5000/caldav/mirko/owimcb',
+						user: 'mirko',
+						pass: 'm1rk0',
+						maximumEntries: 15
+					},
 					// {
 					// 	symbol: 'calendar-o',
 					// 	url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/default?export',
@@ -36,13 +43,13 @@ var config = {
 					// 	pass: 'm1rk0',
 					// 	maximumEntries: 15
 					// },
-					// {
-					// 	symbol: 'trash-o',
-					// 	url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/muell?export',
-					// 	user: 'mirko',
-					// 	pass: 'm1rk0',
-					// 	maximumEntries: 3
-					// },
+					{
+						symbol: 'trash-o',
+						url: 'http://cotta.synology.me:5000/caldav/mirko/lrhnv',
+						user: 'mirko',
+						pass: 'm1rk0',
+						maximumEntries: 3
+					},
 					// {
 					// 	symbol: 'trash-o',
 					// 	url: 'https://service3.stuttgart.de/lhs-services/aws/api/ical?street=Im%20Betzengaiern&streetnr=4',
@@ -50,7 +57,7 @@ var config = {
 					// },
 					{
 						symbol: 'birthday-cake',
-						url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/birthday?export',
+						url: 'http://cotta.synology.me:5000/caldav/mirko/ekpiwxa',
 						user: 'mirko',
 						pass: 'm1rk0',
 						maximumEntries: 3
