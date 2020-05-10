@@ -22,3 +22,6 @@
 [submodule "modules/MMM-bringList"]
 	path = modules/MMM-bringList
 	url = https://github.com/rseidt/MMM-bringList
+[submodule "modules/MMM-MicrosoftToDo"]
+	path = modules/MMM-MicrosoftToDo
+	url = https://github.com/mirko3000/MMM-MicrosoftToDo.git
