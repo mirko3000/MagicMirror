@@ -19,3 +19,6 @@
 [submodule "modules/MMM-smarthome"]
 	path = modules/MMM-smarthome
 	url = https://github.com/mirko3000/MMM-smarthome.git
+[submodule "modules/MMM-bringList"]
+	path = modules/MMM-bringList
+	url = https://github.com/rseidt/MMM-bringList
