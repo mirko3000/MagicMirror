@@ -13,7 +13,8 @@
 
 MagicMirror² focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
-## Table Of Contents
+## Documentation
+For the full documentation including **[installation instructions](https://docs.magicmirror.builders/getting-started/installation.html)**, please visit our dedicated documentation website: [https://docs.magicmirror.builders](https://docs.magicmirror.builders).
 
 - [Table Of Contents](#table-of-contents)
 - [Installation](#installation)
@@ -197,16 +198,7 @@ The community around the MagicMirror² is constantly growing. We even have a [fo
 
 ## Contributing Guidelines
 
-Contributions of all kinds are welcome, not only in the form of code but also with regards bug reports and documentation.
-
-Please keep the following in mind:
-
-- **Bug Reports**:  Make sure you're running the latest version. If the issue(s) still persist: please open a clearly documented issue with a clear title.
-- **Minor Bug Fixes**: Please send a pull request with a clear explanation of the issue or a link to the issue it solves.
-- **Major Bug Fixes**: please discuss your approach in an GitHub issue before you start to alter a big part of the code.
-- **New Features**: please please discuss in a GitHub issue before you start to alter a big part of the code. Without discussion upfront, the pull request will not be accepted / merged.
-
-Thanks for your help in making MagicMirror² better!
+Contributions of all kinds are welcome, not only in the form of code but also with regards bug reports and documentation. For the full contribution guidelines, check out: [https://docs.magicmirror.builders/getting-started/contributing.html](https://docs.magicmirror.builders/getting-started/contributing.html)
 
 
 ## Enjoying MagicMirror? Consider a donation!
@@ -217,22 +209,6 @@ Please consider a donation to help us cover the ongoing costs like webservers an
 If we receive enough donations we might even be able to free up some working hours and spend some extra time improving the MagicMirror² core.
 
 To donate, please follow [this](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G5D8E9MR5DTD2&source=url) link.
-
-## Manifesto
-
-A real Manifesto is still to be written. Till then, Michael's response on [one of the repository issues](https://github.com/MichMich/MagicMirror/issues/1174) gives a great summary:
-
-> "... I started this project as an ultimate starter project for Raspberry Pi enthusiasts. As a matter of fact, for most of the contributors, the MagicMirror project is the first open source project they ever contributed to. This is one of the reasons why the MagicMirror project is featured in several RasPi magazines.
->
->The project has a lot of opportunities for improvement. We could use a powerful framework like Vue to ramp up the development speed. We could use SASS for better/easier css implementations. We could make it an NPM installable package. And as you say, we could bundle it up. The big downside of of of these changes is that it over complicates things: a user no longer will be able to open just one file and make a small modification and see how it works out.
->
->Of course, a bundled version can be complimentary to the regular un-bundled version. And I'm sure a lot of (new) users will opt for the bundled version. But this means those users won't be motivated to take a peek under the hood. They will just remain 'users'. They won't become contributors, and worse: they won't be motivated to take their first steps in software development.
->
->And to be honest: motivating curious users to step out of their comfort zone and take those first steps is what drives me in this project. Therefor my ultimate goal is this project is to keep it as accessible as possible."
->
-> ~ Michael Teeuw
-
-
 
 <p align="center">
 <br>
