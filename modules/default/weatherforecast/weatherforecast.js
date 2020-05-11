@@ -299,6 +299,7 @@ Module.register("weatherforecast",{
 			return;
 		}
 
+		params += "&cnt=" + this.config.maxNumberOfDays;
 		params += "&units=" + this.config.units;
 		params += "&lang=" + this.config.lang;
 		params += "&APPID=" + this.config.appid;
