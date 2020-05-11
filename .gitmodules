@@ -6,7 +6,7 @@
 	url = https://github.com/mirko3000/MMM-max.git
 [submodule "modules/MMM-FRITZ-Box-Callmonitor"]
 	path = modules/MMM-FRITZ-Box-Callmonitor
-	url = https://github.com/paviro/MMM-FRITZ-Box-Callmonitor.git
+	url = https://github.com/rabbit83ka/MMM-FRITZ-Box-Callmonitor.git
 [submodule "modules/MMM-Sonos"]
 	path = modules/MMM-Sonos
 	url = https://github.com/CFenner/MMM-Sonos.git
