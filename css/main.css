@@ -175,7 +175,8 @@ sup {
 }
 
 .region.top.center,
-.region.bottom.center {
+.region.bottom.center,
+.region.lowerthird.center {
   left: 50%;
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
@@ -221,15 +222,15 @@ sup {
 }
 
 .region.upper.third {
-  top: 33%;
+  top: 40%;
 }
 
 .region.middle.center {
-  top: 50%;
+  top: 57%;
 }
 
-.region.lower.third {
-  top: 66%;
+.region.lowerthird {
+  top: 72%;
 }
 
 .region.left {

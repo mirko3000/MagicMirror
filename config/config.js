@@ -86,7 +86,7 @@ var config = {
     // },
 		{
 	    module: 'MMM-MicrosoftToDo',
-	    position: 'middle_center',	// This can be any of the regions. Best results in left or right regions.
+	    position: 'upper_third',	// This can be any of the regions. Best results in left or right regions.
 	    header: 'Einkaufsliste', // This is optional
 	    config: {
 				// Primary account mirkob
@@ -131,7 +131,7 @@ var config = {
 	  //   },
 		 {
 			module: 'MMM-smarthome',
-			position: 'bottom_left',
+			position: 'lowerthird_left',
 			header: 'Temperatur & Feuchtigkeit',
 			config: {
 	            // See 'Configuration options' for more information.
@@ -237,7 +237,7 @@ var config = {
 		// },
 	  {
 			module: 'MMM-FRITZ-Box-Callmonitor',
-			position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
+			position: 'lowerthird_right',	// This can be any of the regions. Best results in left or right regions.
 			header: "Anrufe", // This is optional
 			config: {
 				// See 'Configuration options' for more information.
@@ -266,16 +266,16 @@ var config = {
 			module: 'weatherforecast',
 			position: 'top_right',
 			header: 'Wettervorhersage',
-			maxNumberOfDays: 12,
 			config: {
         location: 'Stuttgart',
         locationID: '2825297',  //ID from bulk.openweather.org/sample/
-        appid: 'bdf4274306fec284ae89ae4bf213cbc3'
+        appid: 'bdf4274306fec284ae89ae4bf213cbc3',
+				maxNumberOfDays: 10
 			}
 		},
 		{
 			module: "MMM-AVStock",
-			position: "bottom_right", //"bottom_bar" is better for `mode:ticker`
+			position: "lowerthird_right", //"bottom_bar" is better for `mode:ticker`
 			config: {
 				apiKey : "E8EASNE65KU2212J", // https://www.alphavantage.co/
 				timeFormat: "YYYY-MM-DD HH:mm:ss",
@@ -293,7 +293,7 @@ var config = {
 		},
 		{
   		module: 'MMM-Sonos',
-  		position: 'lower_third', // you may choose any location
+  		position: 'middle_center', // you may choose any location
   		header: 'Sonos',
   		config: {
 	 			showRoomName: true,
