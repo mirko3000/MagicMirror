@@ -87,7 +87,7 @@ var config = {
 		{
 	    module: 'MMM-MicrosoftToDo',
 	    position: 'middle_center',	// This can be any of the regions. Best results in left or right regions.
-	    header: 'Shopping List', // This is optional
+	    header: 'Einkaufsliste', // This is optional
 	    config: {
 				// Primary account mirkob
 	      // oauth2ClientSecret: '7cLqRX@r8Z.ZWQ.Y5jIjJstn8Sr.qiIM',
@@ -129,102 +129,102 @@ var config = {
 	  //           fadePoint: 0.8
 	  //       }
 	  //   },
-		//  {
-		// 	module: 'MMM-smarthome',
-		// 	position: 'bottom_left',
-		// 	header: 'Temperature / Humidity',
-		// 	config: {
-	  //           // See 'Configuration options' for more information.
-	  //           gatewayIP: '192.168.0.9',
-	  //           gatewayToken: 'cfbdb315c0824ccc971917e36922febe',
-	  //           outsideSensorId: '158d0001ad3771',
-	  //           animationSpeed: 10,
-		// 					updateInterval: 2,
-	  //           graphicLayout: false,
-	  //           showHeating: true,
-	  //           showWindow: true,
-	  //           showVentilation: true,
-	  //           showLights: false,
-	  //           showTrend: true,
-	  //           showNotifications: true,
-	  //           audioNotifications: true,
-	  //           celcius: true,
-		// 					username: 'mirkoogle@gmail.com',
-	  //           password: 'tado19pass',
-		// 					tadoHome: 404052,
-	  //           rooms:  [
-	  //           	{
-		//             	name: 'Kinderzimmer',
-		//             	//name: 'Childrens room',
-		//             	sortOrder: 40,
-		//             	devices : ['158d000171840d', '158d00016ccdae'],
-		// 							zoneId: 7
-	  //           	},
-	  //           	{
-		//             	name: 'Handarbeit',
-		//             	//name: 'Storage room',
-		//             	sortOrder: 70,
-		//             	devices : ['158d0001635ac2']
-	  //           	},
-	  //           	{
-		//             	name: 'Wohnzimmer',
-		//             	//name: 'Living room',
-		//             	sortOrder: 30,
-		//             	devices : ['158d0001718447', '158d0001a4ca4f'],
-		// 							zoneId: 3
-	  //           	},
-	  //           	{
-		//             	name: 'Schlafzimmer',
-		//             	//name: 'Master bedroom',
-		//             	sortOrder: 10,
-		//             	devices : ['158d0001635bb3', '158d0001a1e587'],
-		// 							zoneId: 1
-	  //           	},
-	  //           	{
-	  //           		name: 'Bad groß',
-	  //           		//name: 'Main bathroom',
-		//             	sortOrder: 20,
-		//             	devices : ['158d00017183de', '158d00016ccd92'],
-		// 							zoneId: 2
-	  //           	},
-	  //           	{
-		//             	name: 'Arbeitszimmer',
-		//             	//name: 'Library',
-		//             	sortOrder: 50,
-		//             	devices : ['158d0001635b6a', '158d0001a34811'],
-		// 							zoneId: 4
-	  //           	},
-	  //           	{
-	  //           		name: 'Bad klein',
-	  //           		//name: 'Guest bathroom',
-		//             	sortOrder: 60,
-		//             	devices : ['158d0001635ac8', '158d0001a22e33'],
-		// 							zoneId: 6
-	  //           	},
-	  //           	{
-	  //           		name: 'Küche',
-	  //           		//name: 'Guest bathroom',
-		//             	sortOrder: 70,
-		//             	devices : ['158d0001dcc739']
-	  //           	},
-	  //           	{
-		//             	name: 'Balkon',
-		//             	//name: 'Outside',
-		//             	sortOrder: 100,
-		//             	devices : ['158d0001ad3771']
-	  //           	},
-	  //           ],
-	  //       }
-		// },
-		{
-        module: 'MMM-Tado',
-        position: 'bottom_right',
-        config: {
-            username: 'mirkoogle@gmail.com',
-            password: 'tado19pass',
-            updateInterval: 300000
-        }
-    },
+		 {
+			module: 'MMM-smarthome',
+			position: 'bottom_left',
+			header: 'Temperatur & Feuchtigkeit',
+			config: {
+	            // See 'Configuration options' for more information.
+	            gatewayIP: '192.168.0.9',
+	            gatewayToken: 'cfbdb315c0824ccc971917e36922febe',
+	            outsideSensorId: '158d0001ad3771',
+	            animationSpeed: 10,
+							updateInterval: 2,
+	            graphicLayout: false,
+	            showHeating: true,
+	            showWindow: true,
+	            showVentilation: true,
+	            showLights: false,
+	            showTrend: true,
+	            showNotifications: true,
+	            audioNotifications: true,
+	            celcius: true,
+							username: 'mirkoogle@gmail.com',
+	            password: 'tado19pass',
+							tadoHome: 404052,
+	            rooms:  [
+	            	{
+		            	name: 'Kinderzimmer',
+		            	//name: 'Childrens room',
+		            	sortOrder: 40,
+		            	devices : ['158d000171840d', '158d00016ccdae'],
+									zoneId: 7
+	            	},
+	            	{
+		            	name: 'Handarbeit',
+		            	//name: 'Storage room',
+		            	sortOrder: 70,
+		            	devices : ['158d0001635ac2']
+	            	},
+	            	{
+		            	name: 'Wohnzimmer',
+		            	//name: 'Living room',
+		            	sortOrder: 30,
+		            	devices : ['158d0001718447', '158d0001a4ca4f'],
+									zoneId: 3
+	            	},
+	            	{
+		            	name: 'Schlafzimmer',
+		            	//name: 'Master bedroom',
+		            	sortOrder: 10,
+		            	devices : ['158d0001635bb3', '158d0001a1e587'],
+									zoneId: 1
+	            	},
+	            	{
+	            		name: 'Bad groß',
+	            		//name: 'Main bathroom',
+		            	sortOrder: 20,
+		            	devices : ['158d00017183de', '158d00016ccd92'],
+									zoneId: 2
+	            	},
+	            	{
+		            	name: 'Arbeitszimmer',
+		            	//name: 'Library',
+		            	sortOrder: 50,
+		            	devices : ['158d0001635b6a', '158d0001a34811'],
+									zoneId: 4
+	            	},
+	            	{
+	            		name: 'Bad klein',
+	            		//name: 'Guest bathroom',
+		            	sortOrder: 60,
+		            	devices : ['158d0001635ac8', '158d0001a22e33'],
+									zoneId: 6
+	            	},
+	            	{
+	            		name: 'Küche',
+	            		//name: 'Guest bathroom',
+		            	sortOrder: 70,
+		            	devices : ['158d0001dcc739']
+	            	},
+	            	{
+		            	name: 'Balkon',
+		            	//name: 'Outside',
+		            	sortOrder: 100,
+		            	devices : ['158d0001ad3771']
+	            	},
+	            ],
+	        }
+		},
+		// {
+    //     module: 'MMM-Tado',
+    //     position: 'bottom_right',
+    //     config: {
+    //         username: 'mirkoogle@gmail.com',
+    //         password: 'tado19pass',
+    //         updateInterval: 300000
+    //     }
+    // },
 	  // {
 		// 	module: 'MMM-max',
 		// 	position: 'bottom_right',
