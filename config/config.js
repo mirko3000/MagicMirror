@@ -235,23 +235,23 @@ var config = {
 		// 		updateInterval: 2
 		// 	}
 		// },
-	  // {
-		// 	module: 'MMM-FRITZ-Box-Callmonitor',
-		// 	position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
-		// 	header: "Anrufe", // This is optional
-		// 	config: {
-		// 		// See 'Configuration options' for more information.
-		// 		fritzIP: '192.168.0.1',
-		// 		password: 'motzi13#',
-		// 		showContactsStatus: false,
-		// 		numberFontSize: 40,
-		// 		minimumCallLength: 30,
-		// 		maximumCallDistance: 1440,
-		// 		maximumCalls: 8,
-		// 		fade: true,
-	  //     fadePoint: 0.25
-		// 	}
-		// },
+	  {
+			module: 'MMM-FRITZ-Box-Callmonitor',
+			position: 'bottom_right',	// This can be any of the regions. Best results in left or right regions.
+			header: "Anrufe", // This is optional
+			config: {
+				// See 'Configuration options' for more information.
+				fritzIP: '192.168.0.1',
+				password: 'motzi13#',
+				showContactsStatus: false,
+				numberFontSize: 40,
+				minimumCallLength: 30,
+				maximumCallDistance: 1440,
+				maximumCalls: 8,
+				fade: true,
+	      fadePoint: 0.25
+			}
+		},
 		{
 			module: 'currentweather',
 			position: 'top_right',
