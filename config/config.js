@@ -18,14 +18,20 @@ var config = {
 		},
 		{
 			module: 'clock',
-			clockBold: true,
-			position: 'top_left'
+			position: 'top_left',
+			config: {
+				clockBold: false,
+				showWeek: false,
+				showSunTimes: true,
+				showMoonTimes: true,
+				lat: 48.783333,
+				lon: 9.183333
+			}
 		},
 		{
 			module: 'calendar',
 			header: 'Kalender',
 			position: 'top_left',
-			maximumEntries: 15,
 			config: {
 				//maximumNumberOfDays: '60',
 				calendars: [
@@ -254,14 +260,35 @@ var config = {
 			}
 		},
 		{
-			module: 'currentweather',
+			module: 'weather',
 			position: 'top_right',
 			config: {
+				type: 'current',
 				location: 'Stuttgart',
-        locationID: '2825297',  //ID from bulk.openweather.org/sample/
-        appid: 'bdf4274306fec284ae89ae4bf213cbc3'
+				locationID: '2825297',  //ID from bulk.openweather.org/sample/
+				apiKey: 'bdf4274306fec284ae89ae4bf213cbc3'
 			}
 		},
+		// {
+		// 	module: 'weather',
+		// 	position: 'top_right',
+		// 	config: {
+		// 		type: 'forecast',
+		// 		maxNumberOfDays: 10,
+		// 		location: 'Stuttgart',
+		// 		locationID: '2825297',  //ID from bulk.openweather.org/sample/
+		// 		apiKey: 'bdf4274306fec284ae89ae4bf213cbc3'
+		// 	}
+		// },
+		// {
+		// 	module: 'currentweather',
+		// 	position: 'top_right',
+		// 	config: {
+		// 		location: 'Stuttgart',
+    //     locationID: '2825297',  //ID from bulk.openweather.org/sample/
+    //     appid: 'bdf4274306fec284ae89ae4bf213cbc3'
+		// 	}
+		// },
 		{
 			module: 'weatherforecast',
 			position: 'top_right',
