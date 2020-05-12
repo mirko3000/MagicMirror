@@ -103,7 +103,7 @@ Module.register("clock",{
 		var weekWrapper = document.createElement("div");
 		// Style Wrappers
 		dateWrapper.className = "date normal medium";
-		timeWrapper.className = "time bright large light";
+		timeWrapper.className = "time bright xlarge light";
 		secondsWrapper.className = "dimmed";
 		sunWrapper.className = "sun dimmed small";
 		moonWrapper.className = "moon dimmed small";
