@@ -68,11 +68,18 @@ var config = {
 						pass: 'm1rk0',
 						maximumEntries: 4
 					},
+					// {
+        	// 		url: 'http://i.cal.to/ical/80/baden-wuerttemberg/ferien/a6dff02e.3ffcd70f-aa5bccba.ics',
+        	// 		symbol: 'star',
+        	// 		maximumEntries: 5,
+        	// }
 					{
-        			url: 'http://i.cal.to/ical/80/baden-wuerttemberg/ferien/a6dff02e.3ffcd70f-aa5bccba.ics',
-        			symbol: 'star',
-        			maximumEntries: 5,
-        	}
+						url: 'http://cotta.synology.me:5000/caldav/mirko/28B58E02-74BF-438C-BED4-271D1507B15C',
+						user: 'mirko',
+						pass: 'm1rk0',
+						symbol: 'star',
+						maximumEntries: 5,
+					}
 				]
 			}
 		},
