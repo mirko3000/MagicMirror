@@ -6,7 +6,7 @@
 
 var config = {
 	port: 8080,
-	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "192.168.0.188"], // Set [] to allow all IP addresses.
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "192.168.0.188", "192.168.0.23"], // Set [] to allow all IP addresses.
 
 	language: 'de',
 	timeFormat: 24,
@@ -42,13 +42,6 @@ var config = {
 						pass: 'm1rk0',
 						maximumEntries: 15
 					},
-					// {
-					// 	symbol: 'calendar-o',
-					// 	url: 'http://192.168.0.253/baikal/cal.php/calendars/mirko/default?export',
-					// 	user: 'mirko',
-					// 	pass: 'm1rk0',
-					// 	maximumEntries: 15
-					// },
 					{
 						symbol: 'trash-o',
 						url: 'http://cotta.synology.me:5000/caldav/mirko/lrhnv',
@@ -56,11 +49,6 @@ var config = {
 						pass: 'm1rk0',
 						maximumEntries: 4
 					},
-					// {
-					// 	symbol: 'trash-o',
-					// 	url: 'https://service3.stuttgart.de/lhs-services/aws/api/ical?street=Im%20Betzengaiern&streetnr=4',
-					// 	maximumEntries: 3
-					// },
 					{
 						symbol: 'birthday-cake',
 						url: 'http://cotta.synology.me:5000/caldav/mirko/ekpiwxa',
@@ -68,11 +56,6 @@ var config = {
 						pass: 'm1rk0',
 						maximumEntries: 4
 					},
-					// {
-        	// 		url: 'http://i.cal.to/ical/80/baden-wuerttemberg/ferien/a6dff02e.3ffcd70f-aa5bccba.ics',
-        	// 		symbol: 'star',
-        	// 		maximumEntries: 5,
-        	// }
 					{
 						url: 'http://cotta.synology.me:5000/caldav/mirko/28B58E02-74BF-438C-BED4-271D1507B15C',
 						user: 'mirko',
@@ -159,6 +142,7 @@ var config = {
 	            showVentilation: true,
 	            showLights: false,
 	            showTrend: true,
+							showPlugs: true,
 	            showNotifications: true,
 	            audioNotifications: true,
 	            celcius: true,
@@ -229,6 +213,84 @@ var config = {
 	            ],
 	        }
 		},
+		// {
+		//  module: 'MMM-xiaomi',
+		//  position: 'lowerthird_left',
+		//  header: 'Temperatur & Feuchtigkeit',
+		//  config: {
+		// 				 // See 'Configuration options' for more information.
+		// 				 gatewayIP: '192.168.0.9',
+		// 				 gatewayToken: 'cfbdb315c0824ccc971917e36922febe',
+		// 				 outsideSensorId: '158d0001ad3771',
+		// 				 animationSpeed: 10,
+		// 				 updateInterval: 2,
+		// 				 graphicLayout: false,
+		// 				 showHeating: true,
+		// 				 showWindow: true,
+		// 				 showVentilation: true,
+		// 				 showLights: false,
+		// 				 showTrend: true,
+		// 				 showNotifications: true,
+		// 				 audioNotifications: true,
+		// 				 celcius: true,
+		// 				 rooms:  [
+		// 					 {
+		// 						 name: 'Kinderzimmer',
+		// 						 //name: 'Childrens room',
+		// 						 sortOrder: 40,
+		// 						 devices : ['158d000171840d', '158d00016ccdae'],
+		// 					 },
+		// 					 {
+		// 						 name: 'Handarbeit',
+		// 						 //name: 'Storage room',
+		// 						 sortOrder: 70,
+		// 						 devices : ['158d0001635ac2']
+		// 					 },
+		// 					 {
+		// 						 name: 'Wohnzimmer',
+		// 						 //name: 'Living room',
+		// 						 sortOrder: 30,
+		// 						 devices : ['158d0001718447', '158d0001a4ca4f'],
+		// 					 },
+		// 					 {
+		// 						 name: 'Schlafzimmer',
+		// 						 //name: 'Master bedroom',
+		// 						 sortOrder: 10,
+		// 						 devices : ['158d0001635bb3', '158d0001a1e587'],
+		// 					 },
+		// 					 {
+		// 						 name: 'Bad groß',
+		// 						 //name: 'Main bathroom',
+		// 						 sortOrder: 20,
+		// 						 devices : ['158d00017183de', '158d00016ccd92'],
+		// 					 },
+		// 					 {
+		// 						 name: 'Arbeitszimmer',
+		// 						 //name: 'Library',
+		// 						 sortOrder: 50,
+		// 						 devices : ['158d0001635b6a', '158d0001a34811'],
+		// 					 },
+		// 					 {
+		// 						 name: 'Bad klein',
+		// 						 //name: 'Guest bathroom',
+		// 						 sortOrder: 60,
+		// 						 devices : ['158d0001635ac8', '158d0001a22e33'],
+		// 					 },
+		// 					 {
+		// 						 name: 'Küche',
+		// 						 //name: 'Guest bathroom',
+		// 						 sortOrder: 70,
+		// 						 devices : ['158d0001dcc739']
+		// 					 },
+		// 					 {
+		// 						 name: 'Balkon',
+		// 						 //name: 'Outside',
+		// 						 sortOrder: 100,
+		// 						 devices : ['158d0001ad3771']
+		// 					 },
+		// 				 ],
+		// 		 }
+	 // },
 		// {
     //     module: 'MMM-Tado',
     //     position: 'bottom_right',
