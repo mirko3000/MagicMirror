@@ -203,7 +203,8 @@ sup {
 .region.bottom.right,
 .region.bottom.center,
 .region.bottom.left {
-  bottom: 100%;
+   /* bottom: 100%; */
+  top: -350px
 }
 
 .region.bar {
