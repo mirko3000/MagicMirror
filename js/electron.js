@@ -45,7 +45,8 @@ function createWindow() {
 		webPreferences: {
 			contextIsolation: true,
 			nodeIntegration: false,
-			zoomFactor: config.zoom
+			zoomFactor: config.zoom,
+			webSecurity: false
 		},
 		backgroundColor: "#000000"
 	};
