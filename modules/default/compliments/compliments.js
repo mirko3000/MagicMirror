@@ -1,9 +1,3 @@
-/* MagicMirror²
- * Module: Compliments
- *
- * By Michael Teeuw https://michaelteeuw.nl
- * MIT Licensed.
- */
 Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
@@ -28,12 +22,12 @@ Module.register("compliments", {
 	currentWeatherType: "",
 
 	// Define required scripts.
-	getScripts: function () {
+	getScripts () {
 		return ["moment.js"];
 	},
 
 	// Define start sequence.
-	start: async function () {
+	async start () {
 		Log.info(`Starting module: ${this.name}`);
 
 		this.lastComplimentIndex = -1;
@@ -55,8 +49,8 @@ Module.register("compliments", {
 	 * @param {string[]} compliments Array with compliments.
 	 * @returns {number} a random index of given array
 	 */
-	randomIndex: function (compliments) {
-		if (compliments.length === 1) {
+	randomIndex (compliments) {
+		if (compliments.length <= 1) {
 			return 0;
 		}
 
@@ -79,7 +73,7 @@ Module.register("compliments", {
 	 * Retrieve an array of compliments for the time of the day.
 	 * @returns {string[]} array with compliments for the time of the day.
 	 */
-	complimentArray: function () {
+	complimentArray () {
 		const hour = moment().hour();
 		const date = moment().format("YYYY-MM-DD");
 		let compliments = [];
@@ -115,7 +109,7 @@ Module.register("compliments", {
 	 * Retrieve a file from the local filesystem
 	 * @returns {Promise} Resolved when the file is loaded
 	 */
-	loadComplimentFile: async function () {
+	async loadComplimentFile () {
 		const isRemote = this.config.remoteFile.indexOf("http://") === 0 || this.config.remoteFile.indexOf("https://") === 0,
 			url = isRemote ? this.config.remoteFile : this.file(this.config.remoteFile);
 		const response = await fetch(url);
@@ -126,7 +120,7 @@ Module.register("compliments", {
 	 * Retrieve a random compliment.
 	 * @returns {string} a compliment
 	 */
-	getRandomCompliment: function () {
+	getRandomCompliment () {
 		// get the current time of day compliments list
 		const compliments = this.complimentArray();
 		// variable for index to next message to display
@@ -145,7 +139,7 @@ Module.register("compliments", {
 	},
 
 	// Override dom generator.
-	getDom: function () {
+	getDom () {
 		const wrapper = document.createElement("div");
 		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright pre-line";
 		// get the compliment text
@@ -173,7 +167,7 @@ Module.register("compliments", {
 	},
 
 	// Override notification handler.
-	notificationReceived: function (notification, payload, sender) {
+	notificationReceived (notification, payload, sender) {
 		if (notification === "CURRENTWEATHER_TYPE") {
 			this.currentWeatherType = payload.type;
 		}

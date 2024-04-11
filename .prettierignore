@@ -1,3 +1,14 @@
+*.js
+.eslintignore
+.husky/pre-commit
+.prettierignore
 /config
 /coverage
 package-lock.json
+**.ics
+.gitignore
+.npmrc
+/css/custom.css.sample
+*.png
+*.njk
+*.template

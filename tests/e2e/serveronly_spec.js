@@ -1,5 +1,3 @@
-const helpers = require("./helpers/global-setup");
-
 const delay = (time) => {
 	return new Promise((resolve) => setTimeout(resolve, time));
 };
@@ -8,7 +6,7 @@ describe("App environment", () => {
 	let serverProcess;
 	beforeAll(async () => {
 		process.env.MM_CONFIG_FILE = "tests/configs/default.js";
-		serverProcess = await require("child_process").spawn("npm", ["run", "server"], { env: process.env, detached: true });
+		serverProcess = await require("node:child_process").spawn("npm", ["run", "server"], { env: process.env, detached: true });
 		// we have to wait until the server is startet
 		await delay(2000);
 	});

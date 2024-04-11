@@ -7,7 +7,8 @@
 	/**
 	 * Helper function to get server address/hostname from either the commandline or env
 	 */
-	function getServerAddress() {
+	function getServerAddress () {
+
 		/**
 		 * Get command line parameters
 		 * Assumes that a cmdline parameter is defined with `--key [value]`
@@ -15,7 +16,7 @@
 		 * @param {string} defaultValue value if no key is given at the command line
 		 * @returns {string} the value of the parameter
 		 */
-		function getCommandLineParameter(key, defaultValue = undefined) {
+		function getCommandLineParameter (key, defaultValue = undefined) {
 			const index = process.argv.indexOf(`--${key}`);
 			const value = index > -1 ? process.argv[index + 1] : undefined;
 			return value !== undefined ? String(value) : defaultValue;
@@ -35,11 +36,11 @@
 	 * @param {string} url location where the server is running.
 	 * @returns {Promise} the config
 	 */
-	function getServerConfig(url) {
+	function getServerConfig (url) {
 		// Return new pending promise
 		return new Promise((resolve, reject) => {
 			// Select http or https module, depending on requested url
-			const lib = url.startsWith("https") ? require("https") : require("http");
+			const lib = url.startsWith("https") ? require("node:https") : require("node:http");
 			const request = lib.get(url, (response) => {
 				let configData = "";
 
@@ -64,7 +65,7 @@
 	 * @param {string} message error message to print
 	 * @param {number} code error code for the exit call
 	 */
-	function fail(message, code = 1) {
+	function fail (message, code = 1) {
 		if (message !== undefined && typeof message === "string") {
 			console.log(message);
 		} else {
@@ -93,7 +94,7 @@
 
 				// Spawn electron application
 				const electron = require("electron");
-				const child = require("child_process").spawn(electron, ["js/electron.js"], options);
+				const child = require("node:child_process").spawn(electron, ["js/electron.js"], options);
 
 				// Pipe all child process output to current stdout
 				child.stdout.on("data", function (buf) {
@@ -121,4 +122,4 @@
 	} else {
 		fail();
 	}
-})();
+}());
